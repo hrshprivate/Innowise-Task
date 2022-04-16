@@ -11,6 +11,7 @@
 - flake8
 - isort
 
+# Инструкция
 Бд для тестирования:
 ```$xslt
 'ENGINE': 'django.db.backends.postgresql_psycopg2',
