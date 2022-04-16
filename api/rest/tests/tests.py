@@ -36,7 +36,7 @@ class TicketTest(APITestCase):
 class TestJwt(APITestCase):
     def test_jwt(self):
         user = User.objects.create_user(
-            username='Test123',
+            username='Test',
             email='test@mail.ru',
             password='password1337'
                  )
