@@ -24,6 +24,7 @@
 
 - Для работы с проектом необходим установленный докер:
 ```$xslt
+cd api
 docker-compose up --build
 docker-compose run backend python manage.py makemigrations
 docker-compose run backend python manage.py migrate
@@ -31,6 +32,7 @@ docker-compose run backend python manage.py migrate
 
 - Запуск тестов:
 ```$xslt
+cd api
 docker-compose run backend python manage.py test rest.tests
 ```
 
